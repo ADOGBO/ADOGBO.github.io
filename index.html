@@ -483,6 +483,7 @@
 
     .teaching-card .institution { font-size: 13px; color: var(--muted); margin-bottom: 6px; }
     .teaching-card .period { font-size: 12px; color: var(--accent1); }
+    .teaching-card .teacher { font-size: 12px; color: var(--accent2); }
 
     /* TALKS */
     .talk-list { display: flex; flex-direction: column; gap: 12px; }
@@ -623,7 +624,7 @@
       <h1 class="hero-name">
         Dr. <span class="grad">[G. Jean-Paul<br>ADOGBO]</span>
       </h1>
-      <p class="hero-title">Chercheur Postdoctoral · [Université Paris-Dauphine PSL / CEREMADE]</p>
+      <p class="hero-title">Chercheur Postdoctoral· [Université Paris-Dauphine PSL / CEREMADE]</p>
       <p class="hero-desc">
         I develop deep learning methods for modeling and predicting complex physical systems, combining numerical simulation and data-driven approaches
       </p>
@@ -714,11 +715,11 @@
 
   <!-- RECHERCHE -->
   <section id="research">
-    <div class="section-label">Thématiques actuelles</div>
-    <h2 class="section-title">Mes <span>recherches</span></h2>
+    <div class="section-label">Current Topics</div>
+    <h2 class="section-title">My <span>research</span></h2>
     <div class="research-grid">
       <div class="research-card">
-        <span class="research-tag">Axe principal</span>
+        <span class="research-tag">Main focus</span>
         <h3>[Physics-Aware Deep Learning]</h3>
         <p>I am currently investigating the interplay between machine learning and physics, with a particular focus on modeling spatio-temporal dynamics.
            I explore three interconnected questions: How to incorporate prior physical knowledge in machine learning models: How to leverage both prior physical 
@@ -726,7 +727,7 @@
            </p>
       </div>
       <div class="research-card">
-        <span class="research-tag">Axe secondaire</span>
+        <span class="research-tag">Secondary Focus</span>
         <h3> Foundation Models</h3>
         <p> I am also exploring domain generalization, foundation models for multiphysics problems, and scalable algorithms for the large-scale deployment of these systems. </p>
       </div>
@@ -774,7 +775,7 @@
         </div>
         <span class="pub-badge badge-journal">Journal</span>
       </div>
-      <div class="pub-item">
+      <!--<div class="pub-item">
         <div class="pub-year">2024</div>
         <div class="pub-content">
           <h4>[Titre d'une communication en conférence]</h4>
@@ -800,8 +801,8 @@
           <div class="journal">[Nom de la revue] — Vol. X</div>
         </div>
         <span class="pub-badge badge-journal">Journal</span>
-      </div>
-    </div>
+      </div> 
+    </div>-->
     <div style="margin-top:24px;">
       <a href="https://scholar.google.com" class="btn-outline" target="_blank">Voir toutes les publications sur Google Scholar →</a>
     </div>
@@ -811,32 +812,31 @@
 
   <!-- ENSEIGNEMENT -->
   <section id="teaching">
-    <div class="section-label">Cours &amp; encadrement</div>
-    <h2 class="section-title">Ensei<span>gnement</span></h2>
+    <!--<div class="section-label">Cours &amp; encadrement</div> --> 
+    <div class="section-label">Tutorials</div>
+    <h2 class="section-title">Tea<span>ching</span></h2>
     <div class="teaching-grid">
       <div class="teaching-card">
         <span class="level-tag">Master</span>
-        <h3>[Nom du cours 1]</h3>
-        <div class="institution">[Université / École], [Département]</div>
-        <div class="period">[Semestre] [Année]</div>
+        <h3>Numerical Optimization</h3>
+        <div class="institution">Université Paris Dauphine-PSL, MIDO</div>
+        <div class="period">Second semester 2026</div>
+        <div class="teacher">lectures by <a href="https://www.ceremade.dauphine.fr/~chupin/" target="_blank">Maxime Chupin</a></div>
       </div>
       <div class="teaching-card">
-        <span class="level-tag">Licence</span>
-        <h3>[Nom du cours 2]</h3>
-        <div class="institution">[Université / École], [Département]</div>
-        <div class="period">[Semestre] [Année]</div>
+        <span class="level-tag">Licence 2</span>
+        <h3>Analyse 2</h3>
+        <div class="institution">Université Paris Dauphine-PSL, MIDO</div>
+        <div class="period">First semester 2024,2023,2022,2021</div>
+        <div class="teacher">lectures by <a href="https://www.ceremade.dauphine.fr/~bouin/" target="_blank">Emeric Bouin</a> </div>
       </div>
       <div class="teaching-card">
-        <span class="level-tag">TD / TP</span>
-        <h3>[Travaux dirigés — matière]</h3>
-        <div class="institution">[Université], [Département]</div>
-        <div class="period">[Semestre] [Année]</div>
-      </div>
-      <div class="teaching-card">
-        <span class="level-tag">Encadrement</span>
-        <h3>Supervision de stagiaires</h3>
-        <div class="institution">[Labo / Université]</div>
-        <div class="period">M2 [Année] · M1 [Année]</div>
+        <span class="level-tag">Licence 1</span>
+        <h3>Calculus</h3>
+        <div class="institution">Université Paris Dauphine-PSL, MIDO</div>
+        <div class="period">First semester 2024,2023</div>
+        <div class="teacher">lectures by <a href="https://www.ceremade.dauphine.fr/fr/membres/detail-cv/profile/nejla-nouaili.html" target="_blank">Nouaili Nejla</a>
+             <a href="https://www.linkedin.com/in/juliette-bouhours-857041128/">Juliette Bouhours</a></div>
       </div>
     </div>
   </section>
@@ -845,14 +845,14 @@
 
   <!-- PRÉSENTATIONS -->
   <section id="talks">
-    <div class="section-label">Conférences &amp; séminaires</div>
-    <h2 class="section-title">Présen<span>tations</span></h2>
+    <div class="section-label">Conferences  &amp; Seminars</div>
+    <h2 class="section-title">Presen<span>tations</span></h2>
     <div class="talk-list">
       <div class="talk-item">
-        <div class="talk-date">Juin 2024</div>
+        <div class="talk-date">May 2024</div>
         <div class="talk-content">
           <h4>[Titre de votre présentation]</h4>
-          <div class="venue">[Nom de la conférence] — [Ville], [Pays]</div>
+          <div class="venue">Kacov summer school — Kacov, Czech Republic</div>
           <span class="talk-type type-invited">Talk invité</span>
         </div>
       </div>
